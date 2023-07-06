@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "@/styles/navBar.css";
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -25,3 +27,16 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+body {
+  @apply overflow-hidden;
+}
+
+* {
+  @apply box-border;
+  @apply font-main;
+  @apply text-white;
+ }
+
+
+

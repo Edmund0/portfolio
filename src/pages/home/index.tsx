@@ -4,17 +4,8 @@ import { useRouter } from "next/router";
 import type { NextPage } from "next";
 import PrimaryLayout from "@/components/template/PrimaryLayout";
 
-const Home: NextPage = () => {
-  const title = "Edmund Ofili";
-  const router = useRouter();
-
-  useEffect(() => {
-    const shouldRedirect = true;
-
-    if (shouldRedirect) {
-      router.push("/home");
-    }
-  }, []);
+const HomePage: NextPage = () => {
+  const title = "Home";
 
 
   return (
@@ -33,4 +24,4 @@ const Home: NextPage = () => {
     </>
   )
 }
-export default Home;
+export default HomePage;

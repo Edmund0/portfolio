@@ -1,0 +1,37 @@
+/*****************/
+/*    NAV BAR    */
+/*****************/
+
+.navBar {
+    @apply fixed top-0 shadow-lg;
+    @apply flex flex-row items-center justify-between py-3 px-6 w-screen h-fit;
+    @apply bg-gray-800;
+  }
+  
+  .navGroup {
+    @apply grid grid-cols-3 grid-rows-2 gap-3;
+    @apply md:flex md:flex-row md:items-center md:gap-8;
+  }
+  
+  .navItem {
+    @apply flex flex-row justify-center pb-1 px-1 w-24;
+    @apply border-b-2 border-solid border-transparent;
+    @apply hover:border-red-500;
+  }
+  
+    .navItem.activeNavItem {
+  
+      @apply border-red-500;
+  
+    }
+  
+  .navText {
+    @apply font-semibold text-lg text-white text-center whitespace-nowrap;
+  }
+  
+    .navItem.activeNavItem .navText {
+  
+      @apply text-red-600
+  
+    }
+  
