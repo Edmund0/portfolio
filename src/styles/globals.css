@@ -39,4 +39,9 @@ body {
  }
 
 
+.imageProfile {
+  @apply block rounded-full;
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
 

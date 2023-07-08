@@ -3,7 +3,7 @@
 /*****************/
 
 .navBar {
-    @apply fixed top-0 shadow-lg;
+    @apply fixed top-0 shadow-lg z-10;
     @apply flex flex-row items-center justify-between py-3 px-6 w-screen h-fit;
     @apply bg-gray-800;
   }

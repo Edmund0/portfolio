@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        main: ["inter", "sans", "Poppins", "sans-serif"]
+        main: ["inter", "sans", "Poppins", "sans-serif"],
+        welcome: ["Latin"]
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

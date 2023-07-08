@@ -3,6 +3,8 @@ import React, { useEffect } from "react";
 import { useRouter } from "next/router";
 import type { NextPage } from "next";
 import PrimaryLayout from "@/components/template/PrimaryLayout";
+import Image from "next/image";
+import face from "@/img/face.jpeg"
 
 const HomePage: NextPage = () => {
   const title = "Home";
@@ -18,7 +20,21 @@ const HomePage: NextPage = () => {
         
       <main>
         <PrimaryLayout>
-          <div></div>
+          <div className="flex flex-col py-8 px-8 gap-20 items-center justify-center md:flex-row">
+            <section className="flex flex-col gap-4">
+              <h1 className="font-welcome font-semibold text-6xl text-orange-400">Welcome</h1>
+              <p className="font-extrabold text-xl text-white">Hello, my name is Edmund. I'm a front-end web developer. </p>
+              <button className="w-fit px-4 py-2 bg-red-500 rounded-md shadow-2xl shadow-red-900"><span className="font-bold text-xl text-white">Contacts </span></button>
+            </section>
+            <div className="w-[300px] h-[400px] overflow-hidden">
+              <Image src={face}
+              className="imageProfile"
+              width={300}
+              height={300}
+              object-fit="cover"
+              alt="face"/>
+            </div>
+          </div>
         </PrimaryLayout>
       </main>
     </>
