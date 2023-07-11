@@ -8,6 +8,7 @@ import face from "@/img/face.jpeg"
 
 const HomePage: NextPage = () => {
   const title = "Home";
+  const { push } = useRouter();
 
 
   return (
@@ -24,7 +25,9 @@ const HomePage: NextPage = () => {
             <section className="flex flex-col gap-4">
               <h1 className="font-welcome font-semibold text-6xl text-orange-400">Welcome</h1>
               <p className="font-extrabold text-xl text-white">Hello, my name is Edmund. I'm a front-end web developer. </p>
-              <button className="w-fit px-4 py-2 bg-red-500 rounded-md shadow-2xl shadow-red-900"><span className="font-bold text-xl text-white">Contacts </span></button>
+              <button className="w-fit px-4 py-2 bg-red-500 rounded-md shadow-2xl shadow-red-900" onClick={() => {
+                push("/contact ")
+              }}><span className="font-bold text-xl text-white">Contacts </span></button>
             </section>
             <div className="w-[300px] h-[400px] overflow-hidden">
               <Image src={face}

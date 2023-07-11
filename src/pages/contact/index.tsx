@@ -30,6 +30,7 @@ const Contact: NextPage = () => {
                     <li><Link className="underline text-blue-100 font-medium text-lg" href={"https://www.linkedin.com/in/chigoziem-edmund-ofili-689b14124/"}>Linkedin</Link></li>
                     <li><Link className="underline text-blue-100 font-medium text-lg" href={"mailto:goziem.ofili@gmail.com"}>Email</Link></li>
                     <li><Link className="underline text-blue-100 font-medium text-lg" href={"tel:+16477015576"}>Phone</Link></li>
+                    <li><Link className="underline text-blue-100 font-medium text-lg" href={"https://github.com/Edmund0"}>GitHub</Link></li>
                   </ul>
                 </div>
               </div>
