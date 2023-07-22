@@ -46,7 +46,7 @@ const Skills: NextPage = () => {
                     </li>
                     <li>
                       <div>
-                        Front-End Web Developer Nanodegree Program (UNIVERSITY OF ALBERTA, Edmonton, AB || May 2023)
+                        Front-End Web Developer Nanodegree Program (UDACITY, Edmonton, AB  || May 2023)
                       </div>
                     </li>
                   </ul>
