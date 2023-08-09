@@ -12,7 +12,7 @@ import SASS from "@/assets/img/Technological Stack/SASS.svg";
 import TAILWINDCSS from "@/assets/img/Technological Stack/TailwindCSS.svg";
 import WEBPACKJS from "@/assets/img/Technological Stack/Webpack.svg";
 import REACTJS from "@/assets/img/Technological Stack/ReactJS.svg";
-import NEXTJS from "@/assets/img/Technological Stack/NextJS.svg";
+import NEXTJS from "@/assets/img/Technological Stack/NEXTJS.svg";
 import NODEJS from "@/assets/img/Technological Stack/Node.svg";
 import EXPRESSJS from "@/assets/img/Technological Stack/EXPRESSJS.svg";
 import GITHUB from "@/assets/img/Technological Stack/Github.svg";

@@ -46,7 +46,7 @@ const HomePage: NextPage = () => {
                   <hr className={"border-b h-[4px] bg-gray-700 border-solid border-gray-700 w-full"} />
                 </div>
                 <div className="pl-4">
-                <p className="font-medium text-lg">I am a highly-motivated and detail-oriented Front-End Developer with a strong passion for creating engaging and user-friendly web experiences. Seeking to leverage my technical skills and creativity to contribute to the success of a dynamic organization.</p>
+                  <p className="font-medium text-lg">I am a highly-motivated and detail-oriented Front-End Developer with a strong passion for creating engaging and user-friendly web experiences. Seeking to leverage my technical skills and creativity to contribute to the success of a dynamic organization.</p>
                 </div>
               </div>
             </div>
