@@ -3,6 +3,7 @@ import Head from "next/head";
 import type { NextPage } from "next";
 import VencruTest from "@/img/Unknown-4.png"
 import Dashboard from "@/img/dashboard.png"
+import Travel from "@/img/traveler.png"
 
 import PrimaryLayout from "@/components/template/PrimaryLayout";
 import Link from "next/link";
@@ -46,7 +47,18 @@ const Projects: NextPage = () => {
                     </Link>
                   </div>
                 </section>
-                <section></section>
+                <section>
+                  <div className="rounded-md overflow-hidden">
+                    <Link href="https://udacity-capstone-9gb5.vercel.app" className="">
+                      <Image src={Travel} alt="test"/>
+                    </Link>
+                  </div>
+                  <div> 
+                    <Link href="https://udacity-capstone-9gb5.vercel.app" className="font-extrabold text-violet-400 text-center">
+                      Basic webpage demonstrating ability to build Detailed UI
+                    </Link>
+                  </div>
+                </section>
                 <section></section>
               </div>
             </PrimaryLayout>
