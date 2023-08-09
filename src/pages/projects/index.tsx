@@ -55,7 +55,7 @@ const Projects: NextPage = () => {
                   </div>
                   <div> 
                     <Link href="https://udacity-capstone-9gb5.vercel.app" className="font-extrabold text-violet-400 text-center">
-                      Basic webpage demonstrating ability to build Detailed UI
+                      Basic webpage demonstrating ability to integrate API
                     </Link>
                   </div>
                 </section>
