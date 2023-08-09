@@ -42,6 +42,11 @@ const MainNav: React.FC<MainNavProps> = () => {
                             <span className="navText">Projects</span>
                         </button>
                     </Link>
+                    <Link href="https://drive.google.com/file/d/1n-acSmbUja06WonkpKKx-Aah3qvnJgUI/view?usp=sharing" target="_blank">
+                        <button className={`navItem`}>
+                            <span className="navText">Resume</span>
+                        </button>
+                    </Link>
                     {/* <Link href="/contact">
                         <button className={`navItem ${isActive("contact") && "activeNavItem"}`}>
                             <span className="navText">Contact</span>

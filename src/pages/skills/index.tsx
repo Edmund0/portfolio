@@ -38,22 +38,22 @@ const Skills: NextPage = () => {
         <main>
             <PrimaryLayout>
               <div className="flex flex-col justify-center p-20 gap-8 w-full min-h-screen h-full">
-                <div className="flex flex-col justify-center gap-4 w-full h-full">
+                <div className="flex flex-col justify-center gap-4 pb-4 md:pb-0 w-full h-full">
                   <div className="flex flex-col justify-center gap-1 w-full">
                     <h1 className="font-extrabold text-4xl text-gray-50">Education</h1>
                     <hr className={"border-b h-[4px] bg-gray-700 border-solid border-gray-700 w-full"} />
                   </div>
                   <ul className="pl-4 font-medium text-lg">
                     <li className="pb-4">
-                      <div className="flex flex-row items-center gap-8">
+                      <div className="flex md:flex-row flex-col items-center gap-8">
                         <Image
                           src={UALBERTA}
                           height={50}
                           width={50}
                           alt="UALBERTA LOGO"
                         />
-                        <div className="flex flex-col w-full">
-                          <div className="flex flex-row justify-between">
+                        <div className="flex flex-col w-full gap-2 md:gap-0">
+                          <div className="flex md:flex-row flex-col gap-2 md:gap-0 justify-between">
                             <div><b>UNIVERSITY OF ALBERTA</b>, Edmonton, AB</div>
                             <div>August 2016 – June 2022</div>
                           </div>
@@ -62,15 +62,15 @@ const Skills: NextPage = () => {
                       </div>
                     </li>
                     <li>
-                      <div className="flex flex-row items-center gap-8">
+                      <div className="flex md:flex-row flex-col items-center gap-8">
                         <Image
                           src={UDACITY}
                           height={40}
                           width={50}
                           alt="UDACITY LOGO"
                         />
-                        <div className="flex flex-col w-full">
-                          <div className="flex flex-row justify-between">
+                        <div className="flex flex-col w-full gap-2 md:gap-0">
+                          <div className="flex md:flex-row flex-col gap-2 md:gap-0 justify-between">
                             <div><b>UDACITY</b>, Edmonton, AB</div>
                             <div>May 2023</div>
                           </div>
@@ -81,12 +81,12 @@ const Skills: NextPage = () => {
                   </ul>
                 </div>
                 <div className="flex flex-col justify-center gap-4 w-full h-full">
-                  <div className="flex flex-col justify-center gap-1 w-full">
-                    <h1 className="font-extrabold text-4xl text-gray-50">Technology Stack</h1>
+                  <div className="flex flex-col justify-center gap-1 pb-4 w-full">
+                    <h1 className="font-extrabold text-4xl text-gray-50 md:text-start text-center">Technology Stack</h1>
                     <hr className={"border-b h-[4px] bg-gray-700 border-solid border-gray-700 w-full"} />
                   </div>
                   <div className="">
-                    <div className="pl-4 font-medium text-2xl"> LANGUAGE COMPETENCY </div>
+                    <div className="pl-4 font-medium text-2xl md:block hidden"> LANGUAGE COMPETENCY </div>
                     <div className="inline-flex flex-row justify-start gap-8 flex-wrap p-10">
                       <div className="flex flex-col items-center gap-4">
                         <div className="text-lg font-bold">HTML5</div>
@@ -127,7 +127,7 @@ const Skills: NextPage = () => {
                     </div>
                   </div>
                   <div className="">
-                    <div className="pl-4 font-medium text-2xl"> DEVELOPMENT TOOLS COMPETENCY </div>
+                    <div className="pl-4 font-medium text-2xl md:block hidden"> DEVELOPMENT TOOLS COMPETENCY </div>
                     <div className="inline-flex flex-row justify-start gap-8 flex-wrap p-10">
                       <div className="flex flex-col items-center gap-4">
                         <div className="text-lg font-bold">SASS</div>
@@ -195,7 +195,7 @@ const Skills: NextPage = () => {
                     </div>
                   </div>
                   <div className="">
-                    <div className="pl-4 font-medium text-2xl"> REPOSITORY AND WEB HOSTING COMPETENCY </div>
+                    <div className="pl-4 font-medium text-2xl md:block hidden"> REPOSITORY AND WEB HOSTING COMPETENCY </div>
                     <div className="inline-flex flex-row justify-start gap-8 flex-wrap p-10">
                       <div className="flex flex-col items-center gap-4">
                         <div className="text-lg font-bold">GITHUB</div>
