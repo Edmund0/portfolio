@@ -5,10 +5,17 @@ import type { NextPage } from "next";
 import PrimaryLayout from "@/components/template/PrimaryLayout";
 import Image from "next/image";
 import face from "@/img/face.jpeg"
+import Link from "next/link";
+
+import LinkedIn from "@/img/LinkedIn.svg";
+import Email from "@/img/Mail.svg";
+import Resume from "@/img/Resume.svg";
+import GitHub from "@/img/github.png";
+import Phone from "@/img/Phone.svg";
 
 const HomePage: NextPage = () => {
   const title = "Home";
-  const { push } = useRouter();
+  // const { push } = useRouter();
 
 
   return (
@@ -26,9 +33,68 @@ const HomePage: NextPage = () => {
               <section className="flex flex-col gap-4">
                 <h1 className="font-welcome font-semibold text-6xl text-orange-400">Welcome</h1>
                 <p className="font-extrabold text-xl text-white">Hello, my name is Edmund. I&apos;m a front-end web developer. </p>
-                <button className="w-fit px-4 py-2 bg-red-500 rounded-md shadow-2xl shadow-red-900" onClick={() => {
-                  push("/contact ")
-                }}><span className="font-bold text-xl text-white">Contacts </span></button>
+                {/* <button className="w-fit px-4 py-2 bg-red-500 rounded-md shadow-2xl shadow-red-900" onClick={() => {
+                  // push("/contact ")
+                }}><span className="font-bold text-xl text-white">Contacts </span></button> */}
+                  <div className="flex flex-row gap-4 pl-4 p-4 w-fit bg-red-500 rounded-md shadow-2xl shadow-red-900">
+                    <div className="font-bold text-xl">
+                        Contacts:
+                    </div>
+                    <div className="flex flex-row items-center gap-4">
+                      <div>
+                        <Link className="underline text-blue-100 font-medium text-lg" href={"mailto:goziem.ofili@gmail.com"}>
+                          <Image
+                            src={Email}
+                            alt="Email Contact"
+                            width={25}
+                            height={25}
+                          />
+                        </Link>
+                      </div>
+                      <div>
+                        <Link className="underline text-blue-100 font-medium text-lg" href={"tel:+16477015576"}>
+                          <Image
+                            src={Phone}
+                            alt="Phone Contact"
+                            className="rounded-full "
+                            width={25}
+                            height={25}
+                          />
+                        </Link>
+                      </div>
+                      <div>
+                        <Link className="underline text-blue-100 font-medium text-lg" href={"https://github.com/Edmund0"}>
+                          <Image
+                            src={GitHub}
+                            alt="GitHub Contact"
+                            className="rounded-full "
+                            width={25}
+                            height={25}
+                          />
+                        </Link>
+                      </div>
+                      <div>
+                        <Link className="underline text-blue-100 font-medium text-lg" href={"https://www.linkedin.com/in/chigoziem-edmund-ofili-689b14124/"}>
+                          <Image
+                            src={LinkedIn}
+                            alt="LinkedIn Contact"
+                            width={25}
+                            height={25}
+                          />
+                        </Link>
+                      </div>
+                      <div>
+                        <Link className="underline text-blue-100 font-medium text-lg" target="_blank" href={"https://drive.google.com/file/d/1n-acSmbUja06WonkpKKx-Aah3qvnJgUI/view?usp=sharing"}>
+                          <Image
+                            src={Resume}
+                            alt="Resume"
+                            width={25}
+                            height={25}
+                          />
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
               </section>
               <div className="w-[300px] h-[400px] overflow-hidden">
                 <Image src={face}
@@ -39,10 +105,10 @@ const HomePage: NextPage = () => {
                 alt="face"/>
               </div>
             </div>
-            <div className="flex flex-col justify-center p-20 w-full h-full">
+            <div className="flex flex-col justify-center py-20 md:px-20 w-full h-full">
               <div className="flex flex-col justify-center gap-4 w-full h-full">
                 <div className="flex flex-col justify-center gap-1 w-full">
-                  <h1 className="font-extrabold text-3xl text-gray-50">About Me</h1>
+                  <h1 className="font-extrabold text-3xl text-purple-200">About Me</h1>
                   <hr className={"border-b h-[4px] bg-gray-700 border-solid border-gray-700 w-full"} />
                 </div>
                 <div className="pl-4">

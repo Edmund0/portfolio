@@ -19,6 +19,8 @@ import GITHUB from "@/assets/img/Technological Stack/Github.svg";
 import BITBUCKET from "@/assets/img/Technological Stack/Bitbucket.svg";
 import NETLIFY from "@/assets/img/Technological Stack/NETLIFY.svg";
 import VERCEL from "@/assets/img/Technological Stack/Vercel.svg";
+import UDACITY from "@/assets/img/udacity.svg";
+import UALBERTA from "@/assets/img/Alberta.png";
 
 const Skills: NextPage = () => {
   const title = "Skills";
@@ -43,21 +45,37 @@ const Skills: NextPage = () => {
                   </div>
                   <ul className="pl-4 font-medium text-lg">
                     <li className="pb-4">
-                      <div>
-                        <div className="flex flex-row justify-between">
-                          <div><b>UNIVERSITY OF ALBERTA</b>, Edmonton, AB</div>
-                          <div>August 2016 – June 2022</div>
+                      <div className="flex flex-row items-center gap-8">
+                        <Image
+                          src={UALBERTA}
+                          height={50}
+                          width={50}
+                          alt="UALBERTA LOGO"
+                        />
+                        <div className="flex flex-col w-full">
+                          <div className="flex flex-row justify-between">
+                            <div><b>UNIVERSITY OF ALBERTA</b>, Edmonton, AB</div>
+                            <div>August 2016 – June 2022</div>
+                          </div>
+                          Bachelor of Science in Electrical Engineering
                         </div>
-                        Bachelor of Science in Electrical Engineering
                       </div>
                     </li>
                     <li>
-                      <div>
-                        <div className="flex flex-row justify-between">
-                          <div><b>UDACITY</b>, Edmonton, AB</div>
-                          <div>May 2023</div>
+                      <div className="flex flex-row items-center gap-8">
+                        <Image
+                          src={UDACITY}
+                          height={40}
+                          width={50}
+                          alt="UDACITY LOGO"
+                        />
+                        <div className="flex flex-col w-full">
+                          <div className="flex flex-row justify-between">
+                            <div><b>UDACITY</b>, Edmonton, AB</div>
+                            <div>May 2023</div>
+                          </div>
+                          Front-End Web Developer Nanodegree Program
                         </div>
-                        Front-End Web Developer Nanodegree Program
                       </div>
                     </li>
                   </ul>

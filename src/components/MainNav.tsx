@@ -42,11 +42,11 @@ const MainNav: React.FC<MainNavProps> = () => {
                             <span className="navText">Projects</span>
                         </button>
                     </Link>
-                    <Link href="/contact">
+                    {/* <Link href="/contact">
                         <button className={`navItem ${isActive("contact") && "activeNavItem"}`}>
                             <span className="navText">Contact</span>
                         </button>
-                    </Link>
+                    </Link> */}
                 </main>
                 <section className="flex flex-col items-center gap-2 pt-0.5 pb-1.5 md:flex-row md:gap-4">
                     <Link href={"https://www.linkedin.com/in/chigoziem-edmund-ofili-689b14124/"}>
