@@ -27,11 +27,11 @@ const MainNav: React.FC<MainNavProps> = () => {
                             <span className="navText">Home</span>
                         </button>
                     </Link>
-                    <Link href="/about">
+                    {/* <Link href="/about">
                         <button className={`navItem ${isActive("about") && "activeNavItem"}`}>
                             <span className="navText">About</span>
                         </button>
-                    </Link>
+                    </Link> */}
                     <Link href="/skills">
                         <button className={`navItem ${isActive("skills") && "activeNavItem"}`}>
                             <span className="navText">Skills</span>

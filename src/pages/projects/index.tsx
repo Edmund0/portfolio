@@ -28,7 +28,7 @@ const Projects: NextPage = () => {
                   <div className="rounded-md overflow-hidden">
                       <Image src={Dashboard} alt="test"/>
                   </div>
-                  <div className="font-extrabold text-violet-400"> 
+                  <div className="font-extrabold text-violet-400 text-center"> 
                     {/* <Link href="https://vencru-test-33hnvrd30-edmund0.vercel.app" className="font-extrabold text-violet-400"> */}
                       Developed a web application capable of handling thousands of users in the form of a Software-as-a-Service (SaaS)
                     {/* </Link> */}
@@ -41,7 +41,7 @@ const Projects: NextPage = () => {
                     </Link>
                   </div>
                   <div> 
-                    <Link href="https://vencru-test-33hnvrd30-edmund0.vercel.app" className="font-extrabold text-violet-400">
+                    <Link href="https://vencru-test-33hnvrd30-edmund0.vercel.app" className="font-extrabold text-violet-400 text-center">
                       Basic webpage demonstrating ability to build Detailed UI
                     </Link>
                   </div>
