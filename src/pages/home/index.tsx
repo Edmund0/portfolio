@@ -84,7 +84,7 @@ const HomePage: NextPage = () => {
                         </Link>
                       </div>
                       <div>
-                        <Link className="underline text-blue-100 font-medium text-lg" target="_blank" href={"https://drive.google.com/file/d/1n-acSmbUja06WonkpKKx-Aah3qvnJgUI/view?usp=sharing"}>
+                        <Link className="underline text-blue-100 font-medium text-lg" target="_blank" href={"https://drive.google.com/file/d/13c0rOjGsnqJIOrgeXXIxUVIFdSp3XQwl/view?usp=share_link"}>
                           <Image
                             src={Resume}
                             alt="Resume"
